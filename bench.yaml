@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Cambridge-CIT-ASIC-Tapeouts/ttgf-lfsr
+  original_url: https://github.com/Geeta-doddamani/ttgf-lfsr
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_geeta_doddamani_lfsr
+  project: 4-bit Maximum-Length LFSR
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 8722d3eb8645bbc4d1f839e3cf6867863ed726c0
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_geeta_doddamani_lfsr
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_geeta_doddamani_lfsr
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:40:53Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_geeta_doddamani_lfsr
+- upstream/main
